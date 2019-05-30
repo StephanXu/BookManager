@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="List.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BookDatabase.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Author.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Book.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="app.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UITitleBar.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UIElement.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UIUtils.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UIContainer.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BookManager.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialog.h">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDialog.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UIInputBox.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButton.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogAddBook.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogHome.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogBooks.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UIBookCover.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogBookDetail.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UIText.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogAbout.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="List.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BookDatabase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Author.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Book.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="app.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UITitleBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UIElement.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UIUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UIContainer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UIInputBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogAddBook.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogHome.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogBooks.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UIBookCover.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogBookDetail.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UIText.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogAbout.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
