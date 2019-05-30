@@ -172,9 +172,12 @@ void ui_inputbox_on_event(
 		{
 			break;
 		}
-		else if (8 == param1 && wide_char_length > 0)
+		else if (8 == param1)
 		{
-			wide_char_tmp[wide_char_length - 1] = '\0';
+			if (wide_char_length > 0)
+			{
+				wide_char_tmp[wide_char_length - 1] = '\0';
+			}
 		}
 		else if (/*49 < param1 && */wide_char_length < MAX_INPUTBOX_INPUT_LENGTH - 1)
 		{
