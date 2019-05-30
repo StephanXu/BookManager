@@ -1,3 +1,11 @@
+/*============================================
+Date:	2019/5/28
+Description:
+	A book cover element.
+	It has a readonly size(15*9). So please do not set a too large position 
+	to it. I might influence event's catching.
+============================================*/
+
 #pragma once
 #include "UIElement.h"
 

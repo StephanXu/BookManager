@@ -1,3 +1,9 @@
+/*============================================
+Date:	2019/5/28
+Description:
+	Dialog of book detail.
+	More detail see 'DialogHome.h'
+============================================*/
 #pragma once
 #include "UIContainer.h"
 #include "UIBookCover.h"

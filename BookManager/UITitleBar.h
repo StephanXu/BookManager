@@ -1,3 +1,8 @@
+/*============================================
+Date:	2019/5/24
+Description:
+	A title bar
+============================================*/
 #pragma once
 #include <Windows.h>
 #include "UIElement.h"

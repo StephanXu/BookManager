@@ -1,3 +1,9 @@
+/*============================================
+Date:	2019/5/26
+Description:
+	UI_Element is the basic class of all the elements. Every sub class should 
+	contains a UI_Element object at the beginning.
+============================================*/
 #pragma once
 #include <Windows.h>
 #include "List.h"
@@ -76,12 +82,15 @@ event process function
 */
 void ui_element_set_event(UIElement* element, UIEvent customed_proc);
 
+/* Mark a element to be delete at the next rendering time. */
 void ui_element_mark_as_deleted(UIElement* element);
 
+/* Set visible */
 void ui_element_set_visible(
 	UIElement* element, 
 	unsigned int visible);
 
+/* Set attributes */
 void ui_element_set_attributes(
 	UIElement* element, 
 	unsigned short foreground, 

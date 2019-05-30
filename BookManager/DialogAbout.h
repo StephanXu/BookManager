@@ -1,3 +1,9 @@
+/*============================================
+Date:	2019/5/30
+Description:
+	Dialog of about.
+	More detail see 'DialogHome.h'
+============================================*/
 #pragma once
 #include "UIContainer.h"
 #ifndef DIALOG_ABOUT_H

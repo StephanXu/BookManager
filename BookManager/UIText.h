@@ -1,3 +1,8 @@
+/*============================================
+Date:	2019/5/27
+Description:
+	A simple text element
+============================================*/
 #pragma once
 #include "UIElement.h"
 

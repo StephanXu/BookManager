@@ -1,3 +1,10 @@
+/*============================================
+Date:	2019/5/27
+Description:
+	A Inputbox.
+	Inputbox can bind a buffer. And it can automatically sync the buffer at 
+	the time it has been changed.
+============================================*/
 #pragma once
 #include "app.h"
 #include "UIElement.h"

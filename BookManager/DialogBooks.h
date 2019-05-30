@@ -1,3 +1,9 @@
+/*============================================
+Date:	2019/5/30
+Description:
+	Dialog of books page.
+	More detail see 'DialogHome.h'
+============================================*/
 #pragma once
 #include "UIElement.h"
 #include "UIContainer.h"

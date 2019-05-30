@@ -74,19 +74,28 @@ Args:
 	...:			(string) author's names
 Return id(>0) for success, 0 for failed.
 */
-int bookdb_add_book(BookDatabase* bookdb, char* name, unsigned int num_of_author, ...);
+int bookdb_add_book(
+	BookDatabase* bookdb,
+	char* name, 
+	unsigned int num_of_author,
+	...);
 
 /*
 Get a book object by its id
 Return 1 for success, 0 for failed.
 */
-Iterator _bookdb_get_book_by_id(BookDatabase* bookdb, unsigned int id);
+Iterator _bookdb_get_book_by_id(
+	BookDatabase* bookdb, 
+	unsigned int id);
 
 /* Remove a book from book database by its id */
 void bookdb_remove_book(BookDatabase* bookdb, unsigned int id);
 
 /* Get a book's object's copy by its id */
-int bookdb_get_book_information(BookDatabase* bookdb, unsigned int id, Book** dest);
+int bookdb_get_book_information(
+	BookDatabase* bookdb, 
+	unsigned int id, 
+	Book** dest);
 
 /*
 Update a book's information
@@ -102,15 +111,18 @@ int bookdb_update_book(BookDatabase* bookdb, unsigned int id, Book* source);
 /* Print book list in book database */
 void bookdb_print_book_list(BookDatabase* bookdb);
 
+/* Set book's status(LENT or AVAILABLE)*/
 void bookdb_set_book_status(
 	BookDatabase* bookdb, 
 	unsigned int id, 
 	BookStatus status);
 
+/* Save current database to file*/
 void bookdb_save(
 	BookDatabase* bookdb,
 	char* path);
 
+/* Load database from file */
 void bookdb_load(BookDatabase* bookdb, char* path);
 
 #endif

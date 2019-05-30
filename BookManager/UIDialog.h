@@ -1,3 +1,9 @@
+/*============================================
+Date:	2019/5/26
+Description:
+	A Dialog
+============================================*/
+
 #pragma once
 #include <stdio.h>
 #include "UIElement.h"
